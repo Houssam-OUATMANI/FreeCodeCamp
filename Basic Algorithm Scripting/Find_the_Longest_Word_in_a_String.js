@@ -6,7 +6,7 @@ function findLongestWordLength(str) {
           if( str.length > longest)
             longest = str.length
      })
-      return longest;
+      return longest
     }
     
 console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog"))
