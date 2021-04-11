@@ -1,8 +1,8 @@
 function findLongestWordLength(str) {
-      str.split(' ')
      const splitedArray = str.split(' ')
      let longest = 0
-     splitedArray.map((str)=>{
+     
+     splitedArray.forEach((str)=>{
           if( str.length > longest)
             longest = str.length
      })
